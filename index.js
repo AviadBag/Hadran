@@ -184,6 +184,9 @@ let pictures = [
 const name_h1 = document.getElementById('name')
 const what_h1 = document.getElementById('what')
 
+const fireworks = new Fireworks(document.body, { /* options */ })
+fireworks.start();
+
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
