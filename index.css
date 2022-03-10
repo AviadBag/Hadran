@@ -1,0 +1,27 @@
+body {
+    direction: rtl;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: bold;
+}
+
+#box{
+    width: fit-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#what {
+    font-family: 'Guttman Rashi';
+    font-size: 150px;
+}
+
+#name {
+    font-family: 'Guttman Stam1';
+    font-size: 100px;
+}
